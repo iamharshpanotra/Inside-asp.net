@@ -1,0 +1,9 @@
+Just like DropDownList and CheckBoxList, ListBox control is also a collection of ListItem objects. Working with ListBox control is very similar to DropDownList and CheckBoxList. Adding items and binding to a datasource is exactly similar. In this part of the video, let's discuss about the properties that are specific to the ListBox control.
+
+Properties
+Rows : The number of visible rows in the Listbox. A scrollbar is automatically generated, if the total number of item are greater than the number of visible rows in the listbox.
+SelectionMode : SelectionMode can be Single or Multimple. By default, this property value is Single, meaning when the listbox renders, the user can select only one item from the listbox. Set this property to Multimple, to enable multiple item selections. To select, multiple items from the listbox, hold-down the CTRL key, while the listitem's are selected.
+
+Please note that, it is not possible to set the Selected property of more than one ListItem object to true, if the SelectionMode of the listbox is to Single.
+
+Retrieving the selected item's Text, Value and Index is similar to DropDownList and CheckBoxList
