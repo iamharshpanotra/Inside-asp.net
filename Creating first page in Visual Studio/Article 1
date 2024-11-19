@@ -1,0 +1,53 @@
+Start Page in Visual Studio:
+
+Creating your first ASP.NET web application:
+1. Select File => New Project
+2. Select the Programming language you want to use from Installed Templates section, in the New Project dialog box. Out of the box, you can either use C# or Visual Basic to develop ASP.NET web applications.
+3. Now, Select ASP.NET Web Application, from the middle section of the New Project dialog box.
+4. Give your project and solution a meaningful name.
+5. Select the location, where you want the solution to be created.
+6. Finally click OK.
+
+![alt text](image1.png)
+
+
+
+
+Different windows in visual studio:
+At this point, you should have your first web application created. Now, let's shift our focus, to learn more about the windows that we see in visual studio.
+
+Solution Explorer: To view the solution explorer window, from the VIEW menu, select SOLUTION EXPLORER. Or you can also use keyboard short cut, CTRL + W, S. On the solution explorer, use the AUTO-HIDE push pin button, to either show or hide solution explorer.
+
+![alt text](image2.png)
+
+
+
+
+Visual Studio organizes applications into projects and solutions. A solution is a collection of projects. In our example, we have WebApplication2 solution. This solution has only one project - WebApplication2. If you want to add another project to the solution, simply right click the solution, and Select Add => New Project. For example, to add a class library project, select CLASS LIBRARY from the New Project dialog box and click OK.
+
+At this point, your solution should contain 2 projects
+1. A web Application Project - WebApplication2
+2. A class library project - ClassLibrary1
+
+![alt text](image3.png)
+
+
+
+
+
+Notice that, in the solution explorer, WebApplication2 project is bolded, indicating that this is the start up project. You can only have one start up project in a solution. If you want to change your start up project, RIGHT CLICK the project, and select "SET AS STARTUP PROJECT". The start-up project is the project that runs when you click Start in Visual Studio .NET. When you’re developing multiple projects as part of a single solution, the start-up project usually calls the other projects in the solution.
+
+The solution file will have a .sln extension and the project file will have .csproj (if c# is the programming language) or .vbproj (if visual basic is the programming language)
+
+Tool Box: To view the TOOL BOX, Select TOOL BOX from the VIEW menu, or use the keyboard short cut, CTRL + W, X. Just like, solution explorer, tool box can be auto hidden using the AUTO-HIDE PUSH PIN. Toolbox displays the controls and components that can be used on a web form.
+
+Web Forms: WebForms has the extension of .aspx. A web form also has a code behind and designer files. Code behind files has the extension of .aspx.cs (if c# is the programming language) or .aspx.vb (if vb is the programming language). Designer files contains the extension of .aspx.designer.cs (if c# is the programming language) or .aspx.designer.vb (if visual basic is the programming language). Code behind files contain the code that user writes, where as the designer file contains the auto generated code. You shouldn't change the code in the designer file, because that code might later be modified by Visual Studio and your changes could be overwritten. A Web form is associated with its code file using the @Page directive found in the Web form’s HTML.
+
+
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication2._Default" %>
+
+A webform's HTML can be edited either in Source or Design mode. You can also choose SPLIT mode, which shows both the DESIGN and the SOURCE at the same time.
+
+![alt text](image4.png)
+
+Properties Window: Used to change property of a webform or a control on a webform. To view the Properties window, select PROPERTIES WINDOW from the VIEW menu, or use keyboard short cut CTRL + W, P.
