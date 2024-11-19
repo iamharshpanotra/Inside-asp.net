@@ -1,0 +1,26 @@
+ASP.NET is a Web application framework developed by Microsoft to build dynamic data driven Web applications and Web services. 
+1. ASP.NET is a subset of .NET framework. In simple terms a framework is a collection of classes. 
+2. ASP.NET is the successor to classic ASP (Active Server Pages).
+
+Other technologies which can be used to make web forms are PHP, Java, CGI etc. 
+
+What is a Web Application?
+A web application is an application that is accessed by users using a web browser. Examples of web browsers include 
+1. Microsoft Edge
+2. Google Chrome
+
+What are the advantages of Web applications?
+1. Web Applications just need to be installed only on the web server, where as desktop applications need to be installed on every computer, where you want to access them.
+2. Maintenance, support and patches are easier to provide.
+3. Only a browser is required on the client machine to access a web application.
+4. Accessible from anywhere, provided there is internet.
+5. Cross Platform
+
+How Web applications work?
+1. Web applications work on client/server architecture
+2. On the client all you need is a browser, that can understand HTML
+3. On the server side, the Web application runs under Microsoft Internet Information Services (IIS)
+
+![alt text](image.png)
+
+When the client enters the URL of the web application in the browser, and submits the request. The web server which hosts the web application, receives the request. The request is then processed by the application. The application generates, the HTML and hands it over to the IIS (web server). Finally, IIS sends the generated HTML to the client, who made the initial request. The client browser will the interpret the HTML and displays the user interface. All this communication, happens over the internet using HTTP protocol. HTTP stands for Hyper Text Transfer Protocol. A protocol is a set of rules that govern how two or more items communicate.
