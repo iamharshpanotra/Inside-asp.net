@@ -1,0 +1,7 @@
+The fileUpload control only allows the user to select the file. 
+To upload the seleceted file, drag and drop a button control. 
+Change the ID of the button to btnUpload and the Text to Upload File. 
+Also drag and drop a label control, and change the ID of the label to lblMessage. 
+
+Right click on the web application project and add a folder with name Uploads. 
+This folder is going to store all the uploaded files. 
