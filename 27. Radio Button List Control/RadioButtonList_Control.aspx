@@ -3,7 +3,6 @@
  Where as if you want the user to select only one option, then a RadioButtonList control can be used,
   i.e RadioButtonList is commonly used to present mutually exclusive choices. -->
 
-
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RadioButtonList_Control.aspx.cs" Inherits="Test1.RadioButtonList_Control" %>
 
 <!DOCTYPE html>
