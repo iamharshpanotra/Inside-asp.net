@@ -3,6 +3,7 @@ ASP.NET is a Web application framework developed by Microsoft to build dynamic d
 2. ASP.NET is the successor to classic ASP (Active Server Pages).
 
 Other technologies which can be used to make web forms are PHP, Java, CGI etc. 
+\
 
 What is a Web Application? 
 A web application is an application that is accessed by users using a web browser. Examples of web browsers include 
