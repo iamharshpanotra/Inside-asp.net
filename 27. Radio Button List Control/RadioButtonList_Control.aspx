@@ -21,8 +21,6 @@
                     <asp:ListItem Text="Red" Value="1"></asp:ListItem>
                     <asp:ListItem Text="Green" Value="2"></asp:ListItem>
                     <asp:ListItem Text="Blue" Value="3"></asp:ListItem>
-
-
                     <asp:ListItem Text="Orange" Value="4"></asp:ListItem>
                 </asp:RadioButtonList>
                 <br />
